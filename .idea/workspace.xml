@@ -2,10 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7049e36d-394f-4319-b212-867de6ea9cce" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/blog/urls.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/blog/static/css/.Rhistory" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/blog/static/img/wave.png" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/allbom/urls.py" afterPath="$PROJECT_DIR$/allbom/urls.py" />
-      <change beforePath="$PROJECT_DIR$/blog/views.py" afterPath="$PROJECT_DIR$/blog/views.py" />
+      <change beforePath="$PROJECT_DIR$/blog/static/css/style.css" afterPath="$PROJECT_DIR$/blog/static/css/style.css" />
+      <change beforePath="$PROJECT_DIR$/blog/templates/blog/front_page.html" afterPath="$PROJECT_DIR$/blog/templates/blog/front_page.html" />
+      <change beforePath="$PROJECT_DIR$/blog/templates/blog/style.css" afterPath="" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />

@@ -6,4 +6,4 @@ class HomePageView(TemplateView):
     template_name = '/home/guibax/allbom/blog/templates/blog/front_page.html'
 
 class AboutPageView(TemplateView):
-    template_name = '/home/guibax/allbom/django/blog/templates/blog/sing_page.html'
+    template_name = '/home/guibax/allbom/blog/templates/blog/sing_page.html'

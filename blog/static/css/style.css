@@ -29,6 +29,16 @@
 	display: inline-block;
 }
 
+.divlog {
+
+		background-color: white;
+		color: white;
+		float:right;
+		width: 120px;
+
+		text-align: left;
+
+}
 
 .header {
 	font-family: Courier; 
@@ -49,11 +59,14 @@
 	background-color: black;
     border: none;
     color: white;
-    padding: 15px 32px;
+    float: right;
     text-align: center;
     text-decoration: none;
+    margin-right: 10%;
+    margin-top: 2%;
     font-size: 16px;
     cursor: pointer;
+    wdith: 30px;
 }
 ul {
     list-style-type: none;

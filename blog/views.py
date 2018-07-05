@@ -1,6 +1,9 @@
 from django.shortcuts import render
+from django.views.generic import TemplateView
 
-# Create your views here.
 
-def post_list(request):
-    return render(request, 'blog/front_page.html', {})
+class HomePageView(TemplateView):
+    template_name = '/home/guibax/Programs/django/django/blog/templates/blog/front_page.html'
+
+class AboutPageView(TemplateView):
+    template_name = '/home/guibax/Programs/django/django/blog/templates/blog/sing_page.html'https://tutorial.djangogirls.org/pt/django_templates/

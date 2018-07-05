@@ -6,4 +6,4 @@ class HomePageView(TemplateView):
     template_name = '/home/guibax/Programs/django/django/blog/templates/blog/front_page.html'
 
 class AboutPageView(TemplateView):
-    template_name = '/home/guibax/Programs/django/django/blog/templates/blog/sing_page.html'https://tutorial.djangogirls.org/pt/django_templates/
+    template_name = '/home/guibax/Programs/django/django/blog/templates/blog/sing_page.html'

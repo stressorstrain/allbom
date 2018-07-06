@@ -1,24 +1,11 @@
 <!DOCTYPE html>
+{% extends 'blog/base.html' %}
 {% load staticfiles %}
 
-<html>
-<head>
-	<title>ALL BOOM</title>
-	<link href="{% static 'css/style.css' %}" rel="stylesheet">
+{% block title %}Home{% endblock %}
 
-</head>
-<body class="body">
-	<b1 class="button" onclick="sing_page()"> SING UP </b1>
-	</br>
-	<div class="divh">
-		<h1 class="header"> ALL BOOM </h1>
-		<p1 class="pgrph"> CREATE AND SHARE </br> SHARE AND RECREATE</p1></br></br></br>
-	</div></br>
+  {% block content %}
 
-<script>
-	function sing_page() {
-		location.replace ("https://guibax.pythonanywhere.com/singup")
-	}
-</script>
-</body>
-</hmtl>
+	<b class="button" id="b1" > SING UP </b>
+	<br>
+	{% endblock %}

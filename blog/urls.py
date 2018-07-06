@@ -4,5 +4,5 @@ from . import views
 
 urlpatterns = [
     path('', views.HomePageView.as_view()),
-    path('singup/', views.AboutPageView.as_view()),
+    path('singup/', views.SingIn.as_view()),
 ]

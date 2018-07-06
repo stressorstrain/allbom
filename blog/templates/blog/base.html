@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+{% load staticfiles %}
+
+<html>
+<head>
+   <title>
+    	   {% block title %}{% endblock %}
+   </title>
+	   <link href="{% static 'css/style.css' %}" rel="stylesheet">
+
+</head>
+
+<body class="body" style="background-image: url('static/img/wave.png')">
+	{% block content %}
+	{% endblock %}
+
+	<div class="divh">
+		<h1 class="header"> ALL BOOM </h1>
+		<p class="pgrph"> CREATE AND SHARE <br> SHARE AND RECREATE</p><br><br><br>
+	</div>
+	{% block form %}
+	{% endblock %}
+
+<script>
+	document.getElementById("b1").addEventListener("click", sing_page);
+	function sing_page()  {
+	 window.location.assign("http://127.0.0.1:8000/singup/")
+	 	}
+</script>
+</body>
+
+
+</html>l
